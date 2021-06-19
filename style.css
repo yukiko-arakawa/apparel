@@ -1,0 +1,261 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+  text-size-adjust: 100%;
+  overflow-x: hidden;
+  line-height:1;
+  color: rgb(0, 0, 0);
+  font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  background: rgb(255, 255, 255);
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+*::before, *::after{
+  box-sizing: border-box;
+}
+.header-logo{
+  text-align: center;
+}
+.header-logo img{
+  height: 80px;
+  width: 145px;
+  margin-top: 60px;
+}
+header .nav{
+  margin: 60px auto;
+}
+header .nav ul{
+  display: flex;
+  margin-left: 50px;
+  justify-content: center;
+  list-style: none;
+}
+header .nav ul a{
+  text-decoration: none;
+  color: #000;
+  margin-right: 55px;
+  font-size: 15px;
+}
+header .nav ul a:hover{
+  text-decoration: underline;
+}
+.top-img img{
+  width: 100%;
+  margin-bottom: 80px;
+}
+.message{
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 85px;
+}
+.border{
+  font-family: Pacifico, cursive;;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.border::before, .border::after{
+  content: '';
+  flex-grow: 1;
+  height: 1px;
+  display: block;
+  background-color: #000;
+}
+.border::before{
+  margin-right: 80px;
+}
+.border::after{
+  margin-left: 80px;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+.gallery img{
+  width: 33.33333%;
+}
+.project{
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 85px;
+}
+.project img{
+  width: 100%;
+  margin-bottom: 45px;
+}
+.sub-img{
+  width: 100%;
+  margin-bottom: 85px;
+}
+.brand h2{
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  width:70%;
+  margin: 0 auto;
+}
+.container{
+  width: 30%;
+  height: 425px;
+  margin-bottom: 100px;
+}
+.container .logo{
+  height: 60%;
+  background-color: #f6f6f6;
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container img{
+  width: 60%;
+}
+.brand-logo{
+  background-image: url(img/download.jpg);
+  background-attachment: fixed;
+  width: 100%;
+  height: 560px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.company h2{
+  width: 60%;
+  margin: 0 auto;
+}
+.company-wrapper{
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+.address{
+  width: 40%;
+  padding-right: 10px;
+}
+.address p{
+  margin-bottom: 40px;
+}
+.icon{
+  display: flex;
+  margin-bottom: 50px;
+}
+.icon img{
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+.ggmap{
+  width: 60%;
+}
+.ggmap iframe{
+  width: 100%;
+  height: 100%;
+}
+footer {
+  text-align: center;
+  padding-bottom: 50px;
+}
+footer p{
+  font-size: 12px;
+}
+footer a{
+  text-decoration: none;
+}
+footer a:hover{
+  text-decoration: underline;
+}
