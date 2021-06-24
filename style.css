@@ -162,6 +162,7 @@ header .nav ul a:hover{
 }
 .gallery img{
   width: 33.33333%;
+  object-fit: cover;
 }
 .project{
   width: 60%;
