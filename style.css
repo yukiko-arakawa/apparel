@@ -163,7 +163,7 @@ header .nav ul a:hover{
 }
 .gallery img{
   width: 33.33333%;
-  object-fit: cover;
+  height: auto;
 }
 .project{
   width: 60%;
